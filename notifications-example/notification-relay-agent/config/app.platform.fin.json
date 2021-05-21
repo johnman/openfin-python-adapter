@@ -1,0 +1,17 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "runtime": {
+    "arguments": "--v=1 --inspect",
+    "version": "stable"
+  },
+  "platform": {
+    "uuid": "openfin-notification-relay-agent",
+    "applicationIcon": "http://localhost:8080/favicon.ico",
+    "autoShow": false,
+    "providerUrl": "http://localhost:8080/platform/agent.html"
+  },
+  "snapshot": {
+    "windows": []
+  }
+}

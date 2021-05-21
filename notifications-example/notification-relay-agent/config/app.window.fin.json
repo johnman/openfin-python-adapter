@@ -1,0 +1,15 @@
+{
+  "devtools_port": 9090,
+  "licenseKey": "request-a-key",
+  "startup_app": {
+    "name": "Notification Relay Agent",
+    "description": "An example agent that listens on the message bus for messages to push as notifications",
+    "url": "http://localhost:8080/window/agent.html",
+    "uuid": "openfin-notification-relay-agent-visible",
+    "autoShow": true,
+    "applicationIcon": "http://localhost:8080/favicon.ico"
+  },
+  "runtime": {
+    "version": "stable"
+  }
+}

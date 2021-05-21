@@ -1,0 +1,22 @@
+{
+  "name": "headless-notification-agent",
+  "version": "1.0.0",
+  "description": "An example of creating a headless notification agent that allows notifications to be relayed to it.",
+  "main": "index.html",
+  "scripts": {
+    "openfin": "openfin --launch --config http://localhost:8080/config/app.window.fin.json",
+    "server": "http-server ."
+  },
+  "keywords": [
+    "notifications"
+  ],
+  "author": "OpenFin",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "openfin-cli": "^3.0.2"
+  },
+  "dependencies": {
+    "@types/openfin": "49.0.0"
+  }
+}
